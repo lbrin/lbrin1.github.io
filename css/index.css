@@ -1,3 +1,12 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+input{
+	margin-left: 1%;	
+}
+
 a{
 	text-decoration: none;
 	color: lightslategray;
@@ -42,6 +51,7 @@ a:hover{
 	color: black;
 	list-style: none;
 	margin-left: 13%;
+	margin-top: 3%;
 	font-size: 5%;
 }
 
