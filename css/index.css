@@ -1,6 +1,12 @@
 a{
 	text-decoration: none;
+	color: lightslategray;
 }
+
+a:hover{
+	color:#D3D3D3;
+}
+
 .top{
 	margin: 0;
 	padding: 0;
@@ -8,25 +14,29 @@ a{
 	width: 100%;
 	height: 300px;
 	background-image: url(../img/23.jpg);
-	}
+}
 
 .ul-top{
 	color: white;
-	margin-left: 39%;
-	list-style: none;
-	
-	
+	margin-left: 37%;
+	list-style: none;		
 }
+
 .li-top{
-	
 	float: left;
 	margin: 5%;
 }
+
+.li-top:hover{
+	font-size: 50px;
+}
+
 .center{
 	/*padding-top: 0;
 	margin-top: 0;
 	background-color: antiquewhite;*/
 }
+
 .ul-center{
 	width: 6%;
 	color: black;
@@ -34,13 +44,19 @@ a{
 	margin-left: 13%;
 	font-size: 5%;
 }
+
 .li-center1{
 	padding: 10%;
 	background-color: aquamarine;
 
-	
 }
+
 .li-center{
 	padding: 10%;
 	background-color: lightgray;
 }
+
+.li-center:hover{
+	background-color: aqua;
+}
+
