@@ -20,7 +20,7 @@ a{
 .li-top{
 	
 	float: left;
-	margin: 50px;
+	margin: 5%;
 }
 .center{
 	/*padding-top: 0;
@@ -32,14 +32,15 @@ a{
 	color: black;
 	list-style: none;
 	margin-left: 13%;
+	font-size: 5%;
 }
 .li-center1{
-	padding: 15px;
+	padding: 10%;
 	background-color: aquamarine;
 
 	
 }
 .li-center{
-	padding: 15px;
+	padding: 10%;
 	background-color: lightgray;
 }
