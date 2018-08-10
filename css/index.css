@@ -1,72 +1,28 @@
-*{
-	padding: 0;
-	margin: 0;
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
 }
 
-input{
-	margin-left: 1%;	
+body{
+    background-color: #000;
 }
 
-a{
-	text-decoration: none;
-	color: lightslategray;
+span{
+    width: 30px;
+    height: 30px;
+    background: url(../img/star.png) no-repeat;
+    position: absolute;
+    background-size:100% 100%;
+    animation: flash 1s alternate infinite;
+}
+        
+@keyframes flash {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
-a:hover{
-	color:#D3D3D3;
+span:hover{
+    transform: scale(3, 3) rotate(180deg) !important;
+    transition: all 1s;
 }
-
-.top{
-	margin: 0;
-	padding: 0;
-	/*list-style: none;*/
-	width: 100%;
-	height: 300px;
-	background-image: url(../img/23.jpg);
-}
-
-.ul-top{
-	color: white;
-	margin-left: 37%;
-	list-style: none;		
-}
-
-.li-top{
-	float: left;
-	margin: 5%;
-}
-
-.li-top:hover{
-	font-size: 50px;
-}
-
-.center{
-	/*padding-top: 0;
-	margin-top: 0;
-	background-color: antiquewhite;*/
-}
-
-.ul-center{
-	width: 6%;
-	color: black;
-	list-style: none;
-	margin-left: 13%;
-	margin-top: 3%;
-	font-size: 5%;
-}
-
-.li-center1{
-	padding: 10%;
-	background-color: aquamarine;
-
-}
-
-.li-center{
-	padding: 10%;
-	background-color: lightgray;
-}
-
-.li-center:hover{
-	background-color: aqua;
-}
-
